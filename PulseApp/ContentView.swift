@@ -52,14 +52,16 @@ class HeartRateManager: ObservableObject {
 
 struct ContentView: View {
     @StateObject private var heartRateManager = HeartRateManager()
-
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            VStack {
+                Text("Pulse:")
+                    .font(.title)
+                    .padding(.top, 10)
+                Text("\(Int(heartRateManager.heartRate))")
+                    .font(.system(size: 70))
+                    .bold()
+                    .foregroundColor(.red)
+            }
+            .frame(width: 150, height: 150)
         }
-        .padding()
-    }
 }
