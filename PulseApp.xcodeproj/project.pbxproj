@@ -52,6 +52,8 @@
 		75ED2E242D57D9880054B544 /* PulseApp */ = {
 			isa = PBXGroup;
 			children = (
+				75ED2E342D57DA540054B544 /* Info.plist */,
+				75ED2E332D57D99F0054B544 /* PulseApp.entitlements */,
 				75ED2E252D57D9880054B544 /* PulseApp.swift */,
 				75ED2E272D57D9880054B544 /* ContentView.swift */,
 			);
@@ -61,9 +63,7 @@
 		75ED2E6A2D5803A00054B544 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				75ED2E342D57DA540054B544 /* Info.plist */,
 				75ED2E292D57D9890054B544 /* Assets.xcassets */,
-				75ED2E332D57D99F0054B544 /* PulseApp.entitlements */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -272,7 +272,7 @@
 				CODE_SIGN_ENTITLEMENTS = PulseApp/PulseApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PulseApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = NB2229V6VB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -304,7 +304,7 @@
 				CODE_SIGN_ENTITLEMENTS = PulseApp/PulseApp.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"PulseApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = NB2229V6VB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
