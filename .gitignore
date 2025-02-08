@@ -32,6 +32,11 @@ DerivedData/
 *.xcuserstate
 *.xcodeproj/project.xcworkspace/
 
+# Unnecessary Xcode files
+project.xcworkspace/
+*.xcworkspace/xcshareddata/
+
+
 ## Obj-C/Swift specific
 *.hmap
 
